@@ -1,5 +1,5 @@
 import React from 'react';
-import type { StoryObj } from '@storybook/react';
+import type { StoryObj } from '@storybook/react-vite';
 import Dropdown from '../Dropdown';
 import { createMeta } from '@/storybook/utils';
 import '../styles/index.less';

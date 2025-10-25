@@ -9,23 +9,20 @@ const stories = Component
   : ['../../src/**/*.stories.@(js|jsx|mjs|ts|tsx)'];
 
 const config: StorybookConfig = {
-  stories: ['./welcome.stories.mdx', '../../src/**/*.mdx', ...stories],
+  stories: ['./welcome.mdx', '../../src/**/*.mdx', ...stories],
   addons: [
     '@storybook/addon-links',
-    '@storybook/addon-essentials',
     '@storybook/addon-onboarding',
-    '@storybook/addon-interactions',
     '@storybook/addon-styling-webpack',
+    '@storybook-community/storybook-dark-mode',
     '@storybook/addon-a11y',
-    'storybook-dark-mode'
+    '@storybook/addon-docs'
   ],
   framework: {
     name: '@storybook/react-vite',
     options: {}
   },
-  docs: {
-    autodocs: 'tag'
-  },
+  docs: {},
   async viteFinal(config, { configType }) {
     return mergeConfig(config, {
       resolve: {

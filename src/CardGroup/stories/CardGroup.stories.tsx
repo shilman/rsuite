@@ -1,5 +1,5 @@
 import React from 'react';
-import type { StoryObj } from '@storybook/react';
+import type { StoryObj } from '@storybook/react-vite';
 import HStack from '../../Stack/HStack';
 import Card from '../../Card';
 import CardGroup, { CardGroupProps } from '../CardGroup';

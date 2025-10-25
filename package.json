@@ -98,8 +98,6 @@
     "@commitlint/config-conventional": "^13.2.0",
     "@faker-js/faker": "^8.4.0",
     "@npmcli/package-json": "^2.0.0",
-    "@storybook/blocks": "^7.6.10",
-    "@storybook/react": "^7.6.10",
     "@testing-library/dom": "^8.20.1",
     "@testing-library/react": "^11.2.3",
     "@testing-library/react-hooks": "^7.0.0",

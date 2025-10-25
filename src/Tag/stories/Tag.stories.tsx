@@ -1,4 +1,4 @@
-import type { StoryObj } from '@storybook/react';
+import type { StoryObj } from '@storybook/react-vite';
 import Tag, { TagProps } from '../Tag';
 import { createMeta } from '@/storybook/utils';
 import '../styles/index.less';

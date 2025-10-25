@@ -1,5 +1,5 @@
 import React from 'react';
-import type { StoryObj } from '@storybook/react';
+import type { StoryObj } from '@storybook/react-vite';
 import HStack from '../../Stack/HStack';
 import Stat, { StatProps } from '../Stat';
 import PeoplesIcon from '@rsuite/icons/Peoples';

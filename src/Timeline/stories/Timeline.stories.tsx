@@ -1,5 +1,5 @@
 import React from 'react';
-import type { StoryObj } from '@storybook/react';
+import type { StoryObj } from '@storybook/react-vite';
 import Timeline, { TimelineProps } from '../Timeline';
 import CreditCardIcon from '@rsuite/icons/legacy/CreditCard';
 import PlaneIcon from '@rsuite/icons/legacy/Plane';

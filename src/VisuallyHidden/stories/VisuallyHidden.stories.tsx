@@ -1,5 +1,5 @@
 import React from 'react';
-import type { StoryObj } from '@storybook/react';
+import type { StoryObj } from '@storybook/react-vite';
 import CreativeIcon from '@rsuite/icons/Creative';
 import VisuallyHidden from '../';
 import Button from '../../Button';

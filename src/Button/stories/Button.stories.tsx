@@ -1,5 +1,5 @@
 import React from 'react';
-import type { StoryObj } from '@storybook/react';
+import type { StoryObj } from '@storybook/react-vite';
 import AddOutlineIcon from '@rsuite/icons/AddOutline';
 import Button, { ButtonProps } from '../Button';
 import ButtonToolbar from '../../ButtonToolbar';

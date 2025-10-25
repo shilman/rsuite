@@ -1,5 +1,5 @@
 import React from 'react';
-import type { StoryObj } from '@storybook/react';
+import type { StoryObj } from '@storybook/react-vite';
 import Grid from '../Grid';
 import Col from '../../Col';
 import Row from '../../Row';

@@ -1,5 +1,5 @@
 import React from 'react';
-import type { StoryObj } from '@storybook/react';
+import type { StoryObj } from '@storybook/react-vite';
 import Heading, { HeadingProps } from '../Heading';
 import HeadingGroup from '../../HeadingGroup';
 import Text from '../../Text';

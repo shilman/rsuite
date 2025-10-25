@@ -1,5 +1,5 @@
 import React from 'react';
-import type { StoryObj } from '@storybook/react';
+import type { StoryObj } from '@storybook/react-vite';
 import Table, { TableProps, ColumnProps } from '../';
 import { createMeta } from '@/storybook/utils';
 import { mockUsers } from '@/storybook/mocks';
