@@ -10,7 +10,8 @@ const meta = createMeta(TagGroup);
 
 export default {
   ...meta,
-  title: 'Components/TagGroup'
+  title: 'Components/TagGroup',
+  component: TagGroup,
 };
 
 type Story = StoryObj<typeof meta>;

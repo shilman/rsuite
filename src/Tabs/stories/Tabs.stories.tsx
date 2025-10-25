@@ -11,7 +11,8 @@ const meta = createMeta(Tabs);
 
 export default {
   ...meta,
-  title: 'Components/Tabs'
+  title: 'Components/Tabs',
+  component: Tabs,
 };
 
 type Story = StoryObj<typeof meta>;

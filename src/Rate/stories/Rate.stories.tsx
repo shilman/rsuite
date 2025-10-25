@@ -9,7 +9,8 @@ const meta = createMeta(Rate);
 
 export default {
   ...meta,
-  title: 'Components/Rate'
+  title: 'Components/Rate',
+  component: Rate,
 };
 
 type Story = StoryObj<typeof meta>;

@@ -10,8 +10,9 @@ import '../../Button/styles/index.less';
 const meta = createMeta(VisuallyHidden);
 
 export default {
+  ...meta,
   title: 'Components/VisuallyHidden',
-  ...meta
+  component: VisuallyHidden,
 };
 
 type Story = StoryObj<typeof meta>;

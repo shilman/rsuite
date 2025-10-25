@@ -6,8 +6,9 @@ import '../styles/index.less';
 const meta = createMeta(TagInput) as Meta<typeof TagInput>;
 
 export default {
+  ...meta,
   title: 'Components/TagInput',
-  ...meta
+  component: TagInput,
 };
 
 type Story = StoryObj<typeof meta>;

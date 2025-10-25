@@ -14,8 +14,9 @@ import '../../Stack/styles/index.less';
 const meta = createMeta(Accordion);
 
 export default {
+  ...meta,
   title: 'Components/Accordion',
-  ...meta
+  component: Accordion
 };
 
 type Story = StoryObj<typeof meta>;

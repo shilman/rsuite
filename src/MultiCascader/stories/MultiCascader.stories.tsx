@@ -15,8 +15,9 @@ const data = mockTreeData({
 const meta = createMeta(MultiCascader);
 
 export default {
+  ...meta,
   title: 'Components/MultiCascader',
-  ...meta
+  component: MultiCascader,
 };
 
 type Story = StoryObj<typeof meta>;

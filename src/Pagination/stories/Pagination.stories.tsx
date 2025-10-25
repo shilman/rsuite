@@ -6,8 +6,9 @@ import '../styles/index.less';
 const meta = createMeta(Pagination);
 
 export default {
+  ...meta,
   title: 'Components/Pagination',
-  ...meta
+  component: Pagination,
 };
 
 type Story = StoryObj<typeof meta>;

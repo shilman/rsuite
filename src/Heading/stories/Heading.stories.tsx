@@ -10,8 +10,9 @@ import '../../Text/styles/index.less';
 const meta = createMeta(Heading);
 
 export default {
+  ...meta,
   title: 'Components/Heading',
-  ...meta
+  component: Heading,
 };
 
 type Story = StoryObj<typeof meta>;

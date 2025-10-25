@@ -19,13 +19,13 @@ const config: StorybookConfig = {
     '@storybook/addon-links',
     '@storybook/addon-onboarding',
     '@storybook/addon-a11y',
-    '@storybook/addon-docs'
+    '@storybook/addon-docs',
+    '@storybook/addon-mcp'
   ],
   framework: {
     name: '@storybook/react-vite',
     options: {}
   },
-  docs: {},
   async viteFinal(config, { configType }) {
     return mergeConfig(config, {
       resolve: {
@@ -38,6 +38,10 @@ const config: StorybookConfig = {
         ]
       }
     });
+  },
+  features: {
+    experimentalCodeExamples: true,
+    experimentalComponentsManifest: true
   }
 };
 export default config;

@@ -11,8 +11,9 @@ import '../../Button/styles/index.less';
 const meta = createMeta(Uploader);
 
 export default {
+  ...meta,
   title: 'Components/Uploader',
-  ...meta
+  component: Uploader,
 };
 
 type Story = StoryObj<typeof meta>;

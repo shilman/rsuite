@@ -8,8 +8,9 @@ const data = mockArrayData();
 const meta = createMeta(SelectPicker);
 
 export default {
+  ...meta,
   title: 'Components/SelectPicker',
-  ...meta
+  component: SelectPicker,
 };
 
 type Story = StoryObj<typeof meta>;

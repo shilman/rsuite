@@ -8,8 +8,9 @@ import '../styles/index.less';
 const meta = createMeta(ButtonGroup);
 
 export default {
+  ...meta,
   title: 'Components/ButtonGroup',
-  ...meta
+  component: ButtonGroup,
 };
 
 type Story = StoryObj<typeof meta>;

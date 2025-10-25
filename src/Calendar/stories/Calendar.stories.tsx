@@ -6,8 +6,9 @@ import '../styles/index.less';
 const meta = createMeta(Calendar);
 
 export default {
+  ...meta,
   title: 'Components/Calendar',
-  ...meta
+  component: Calendar,
 };
 
 type Story = StoryObj<typeof meta>;

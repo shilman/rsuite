@@ -15,8 +15,9 @@ const data = mockTreeData({
 const meta = createMeta(TreePicker);
 
 export default {
+  ...meta,
   title: 'Components/TreePicker',
-  ...meta
+  component: TreePicker,
 };
 
 type Story = StoryObj<typeof meta>;

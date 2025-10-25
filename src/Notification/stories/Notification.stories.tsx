@@ -12,8 +12,9 @@ import '../../toaster/styles/index.less';
 const meta = createMeta(Notification);
 
 export default {
+  ...meta,
   title: 'Components/Notification',
-  ...meta
+  component: Notification,
 };
 
 type Story = StoryObj<typeof meta>;

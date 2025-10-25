@@ -9,8 +9,9 @@ import '../../Button/styles/index.less';
 const meta = createMeta(Modal);
 
 export default {
+  ...meta,
   title: 'Components/Modal',
-  ...meta
+  component: Modal,
 };
 
 type Story = StoryObj<typeof meta>;

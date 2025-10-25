@@ -12,6 +12,7 @@ const meta = createMeta(Popover);
 export default {
   ...meta,
   title: 'Components/Popover',
+  component: Popover,
   parameters: {
     layout: 'centered'
   }

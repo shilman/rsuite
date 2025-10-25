@@ -9,8 +9,9 @@ import '../styles/index.less';
 const meta = createMeta(InlineEdit);
 
 export default {
+  ...meta,
   title: 'Components/InlineEdit',
-  ...meta
+  component: InlineEdit,
 };
 
 type Story = StoryObj<typeof meta>;

@@ -12,8 +12,9 @@ import '../../toaster/styles/index.less';
 const meta = createMeta(Message);
 
 export default {
+  ...meta,
   title: 'Components/Message',
-  ...meta
+  component: Message,
 };
 
 type Story = StoryObj<typeof meta>;

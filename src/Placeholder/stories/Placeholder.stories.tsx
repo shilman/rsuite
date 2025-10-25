@@ -7,8 +7,9 @@ import '../styles/index.less';
 const meta = createMeta(Placeholder);
 
 export default {
+  ...meta,
   title: 'Components/Placeholder',
-  ...meta
+  component: Placeholder,
 };
 
 type Story = StoryObj<typeof meta>;

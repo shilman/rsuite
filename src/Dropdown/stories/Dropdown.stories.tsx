@@ -7,8 +7,9 @@ import '../styles/index.less';
 const meta = createMeta(Dropdown);
 
 export default {
+  ...meta,
   title: 'Components/Dropdown',
-  ...meta
+  component: Dropdown,
 };
 
 type Story = StoryObj<typeof meta>;

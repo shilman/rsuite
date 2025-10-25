@@ -12,8 +12,9 @@ import '../../RadioTile/styles/index.less';
 const meta = createMeta(RadioTileGroup);
 
 export default {
+  ...meta,
   title: 'Components/RadioTileGroup',
-  ...meta
+  component: RadioTileGroup,
 };
 
 type Story = StoryObj<typeof meta>;

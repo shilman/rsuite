@@ -12,7 +12,8 @@ const meta = createMeta(Stack);
 
 export default {
   ...meta,
-  title: 'Components/Stack'
+  title: 'Components/Stack',
+  component: Stack,
 };
 
 type Story = StoryObj<typeof meta>;

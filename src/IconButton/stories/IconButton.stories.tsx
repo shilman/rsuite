@@ -10,8 +10,9 @@ import '../../ButtonToolbar/styles/index.less';
 const meta = createMeta(IconButton);
 
 export default {
+  ...meta,
   title: 'Components/IconButton',
-  ...meta
+  component: IconButton,
 };
 
 type Story = StoryObj<typeof meta>;

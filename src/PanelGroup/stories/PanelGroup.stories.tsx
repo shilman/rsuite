@@ -8,8 +8,9 @@ import '../styles/index.less';
 const meta = createMeta(PanelGroup);
 
 export default {
+  ...meta,
   title: 'Components/PanelGroup',
-  ...meta
+  component: PanelGroup,
 };
 
 type Story = StoryObj<typeof meta>;

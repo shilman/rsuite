@@ -17,7 +17,8 @@ const meta = createMeta(Table);
 
 export default {
   ...meta,
-  title: 'Components/Table'
+  title: 'Components/Table',
+  component: Table,
 };
 
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment

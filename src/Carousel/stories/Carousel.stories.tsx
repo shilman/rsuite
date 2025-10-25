@@ -7,8 +7,9 @@ import '../styles/index.less';
 const meta = createMeta(Carousel);
 
 export default {
+  ...meta,
   title: 'Components/Carousel',
-  ...meta
+  component: Carousel,
 };
 
 type Story = StoryObj<typeof meta>;

@@ -12,7 +12,8 @@ const meta = createMeta(StatGroup);
 
 export default {
   ...meta,
-  title: 'Components/StatGroup'
+  title: 'Components/StatGroup',
+  component: StatGroup,
 };
 
 type Story = StoryObj<typeof meta>;

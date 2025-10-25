@@ -7,8 +7,9 @@ import '../styles/index.less';
 const meta = createMeta(Highlight) as Meta<typeof Highlight>;
 
 export default {
+  ...meta,
   title: 'Components/Highlight',
-  ...meta
+  component: Highlight,
 };
 
 type Story = StoryObj<typeof meta>;

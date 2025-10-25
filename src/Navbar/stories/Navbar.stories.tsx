@@ -8,8 +8,9 @@ import '../styles/index.less';
 const meta = createMeta(Navbar);
 
 export default {
+  ...meta,
   title: 'Components/Navbar',
-  ...meta
+  component: Navbar,
 };
 
 type Story = StoryObj<typeof meta>;

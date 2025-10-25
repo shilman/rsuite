@@ -7,8 +7,9 @@ import '../styles/index.less';
 const meta = createMeta(Nav);
 
 export default {
+  ...meta,
   title: 'Components/Nav',
-  ...meta
+  component: Nav,
 };
 
 type Story = StoryObj<typeof meta>;

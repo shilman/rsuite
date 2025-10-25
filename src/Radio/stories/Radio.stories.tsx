@@ -6,8 +6,9 @@ import '../styles/index.less';
 const meta = createMeta(Radio);
 
 export default {
+  ...meta,
   title: 'Components/Radio',
-  ...meta
+  component: Radio,
 };
 
 type Story = StoryObj<typeof meta>;

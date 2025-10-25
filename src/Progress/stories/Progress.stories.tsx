@@ -10,7 +10,8 @@ const meta = createMeta(Progress);
 
 export default {
   ...meta,
-  title: 'Components/Progress'
+  title: 'Components/Progress',
+  component: Progress,
 };
 
 type Story = StoryObj<typeof meta>;
