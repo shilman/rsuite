@@ -7,6 +7,7 @@ const meta = createMeta(DatePicker);
 
 export default {
   title: 'Components/DatePicker',
+  component: DatePicker,
   ...meta
 };
 

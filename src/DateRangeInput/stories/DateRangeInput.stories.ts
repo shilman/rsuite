@@ -7,6 +7,7 @@ const meta = createMeta(DateRangeInput);
 
 export default {
   title: 'Components/DateRangeInput',
+  component: DateRangeInput,
   ...meta
 };
 
