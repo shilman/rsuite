@@ -9,8 +9,9 @@ import '../../Button/styles/index.less';
 const meta = createMeta(Drawer);
 
 export default {
+  ...meta,
   title: 'Components/Drawer',
-  ...meta
+  component: Drawer,
 };
 
 type Story = StoryObj<typeof meta>;

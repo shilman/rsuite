@@ -12,8 +12,9 @@ import '../../Stack/styles/index.less';
 const meta = createMeta(Input);
 
 export default {
+  ...meta,
   title: 'Components/Input',
-  ...meta
+  component: Input,
 };
 
 type Story = StoryObj<typeof meta>;

@@ -7,8 +7,9 @@ import '../styles/index.less';
 const meta = createMeta(Panel);
 
 export default {
+  ...meta,
   title: 'Components/Panel',
-  ...meta
+  component: Panel,
 };
 
 type Story = StoryObj<typeof meta>;

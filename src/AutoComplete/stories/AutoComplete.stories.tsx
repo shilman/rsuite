@@ -27,8 +27,9 @@ const data = [
 const meta = createMeta(AutoComplete);
 
 export default {
+  ...meta,
   title: 'Components/AutoComplete',
-  ...meta
+  component: AutoComplete,
 };
 
 type Story = StoryObj<typeof meta>;

@@ -7,7 +7,8 @@ const meta = createMeta(Tag);
 
 export default {
   ...meta,
-  title: 'Components/Tag'
+  title: 'Components/Tag',
+  component: Tag
 };
 
 type Story = StoryObj<typeof meta>;

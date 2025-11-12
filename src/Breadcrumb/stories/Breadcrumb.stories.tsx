@@ -7,8 +7,9 @@ import '../styles/index.less';
 const meta = createMeta(Breadcrumb);
 
 export default {
+  ...meta,
   title: 'Components/Breadcrumb',
-  ...meta
+  component: Breadcrumb,
 };
 
 type Story = StoryObj<typeof meta>;

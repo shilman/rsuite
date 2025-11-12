@@ -10,8 +10,9 @@ import '../styles/index.less';
 const meta = createMeta(Toggle);
 
 export default {
+  ...meta,
   title: 'Components/Toggle',
-  ...meta
+  component: Toggle,
 };
 
 type Story = StoryObj<typeof meta>;

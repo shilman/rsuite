@@ -17,7 +17,8 @@ const meta = createMeta(CardGroup);
 
 export default {
   ...meta,
-  title: 'Components/CardGroup'
+  title: 'Components/CardGroup',
+  component: CardGroup,
 };
 
 type Story = StoryObj<typeof meta>;

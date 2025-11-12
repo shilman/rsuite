@@ -9,8 +9,9 @@ import '../../Stack/styles/index.less';
 const meta = createMeta(Text);
 
 export default {
+  ...meta,
   title: 'Components/Text',
-  ...meta
+  component: Text,
 };
 
 type Story = StoryObj<typeof meta>;

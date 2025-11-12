@@ -10,8 +10,9 @@ import '../../Avatar/styles/index.less';
 const meta = createMeta(AvatarGroup);
 
 export default {
+  ...meta,
   title: 'Components/AvatarGroup',
-  ...meta
+  component: AvatarGroup,
 };
 
 type Story = StoryObj<typeof meta>;

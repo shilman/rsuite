@@ -8,8 +8,9 @@ import '../../Button/styles/index.less';
 const meta = createMeta(Loader);
 
 export default {
+  ...meta,
   title: 'Components/Loader',
-  ...meta
+  component: Loader,
 };
 
 type Story = StoryObj<typeof meta>;

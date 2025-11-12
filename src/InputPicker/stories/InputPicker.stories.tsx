@@ -8,8 +8,9 @@ const data = mockArrayData();
 const meta = createMeta(InputPicker) as Meta<typeof InputPicker>;
 
 export default {
+  ...meta,
   title: 'Components/InputPicker',
-  ...meta
+  component: InputPicker,
 };
 
 type Story = StoryObj<typeof meta>;

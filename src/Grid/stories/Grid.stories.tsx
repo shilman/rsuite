@@ -12,8 +12,9 @@ import './styles.less';
 const meta = createMeta(Grid);
 
 export default {
+  ...meta,
   title: 'Components/Grid',
-  ...meta
+  component: Grid
 };
 
 type Story = StoryObj<typeof meta>;

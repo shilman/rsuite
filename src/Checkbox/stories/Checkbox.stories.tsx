@@ -7,8 +7,9 @@ import '../styles/index.less';
 const meta = createMeta(Checkbox);
 
 export default {
+  ...meta,
   title: 'Components/Checkbox',
-  ...meta
+  component: Checkbox,
 };
 
 type Story = StoryObj<typeof meta>;

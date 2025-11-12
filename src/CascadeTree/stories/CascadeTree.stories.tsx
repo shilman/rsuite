@@ -19,8 +19,9 @@ const data = mockTreeData({
 const meta = createMeta(CascadeTree);
 
 export default {
+  ...meta,
   title: 'Components/CascadeTree',
-  ...meta
+  component: CascadeTree,
 };
 
 type Story = StoryObj<typeof meta>;

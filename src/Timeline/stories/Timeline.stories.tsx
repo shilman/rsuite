@@ -16,7 +16,8 @@ const meta = createMeta(Timeline);
 
 export default {
   ...meta,
-  title: 'Components/Timeline'
+  title: 'Components/Timeline',
+  component: Timeline,
 };
 
 type Story = StoryObj<typeof meta>;

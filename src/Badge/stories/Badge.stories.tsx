@@ -6,8 +6,9 @@ import '../styles/index.less';
 const meta = createMeta(Badge);
 
 export default {
+  ...meta,
   title: 'Components/Badge',
-  ...meta
+  component: Badge
 };
 
 type Story = StoryObj<typeof meta>;

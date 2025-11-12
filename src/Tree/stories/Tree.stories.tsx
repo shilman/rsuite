@@ -16,8 +16,9 @@ const data = mockTreeData({
 const meta = createMeta(Tree);
 
 export default {
+  ...meta,
   title: 'Components/Tree',
-  ...meta
+  component: Tree,
 };
 
 type Story = StoryObj<typeof meta>;

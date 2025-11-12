@@ -16,8 +16,9 @@ import './styles.less';
 const meta = createMeta(Container);
 
 export default {
+  ...meta,
   title: 'Components/Container',
-  ...meta
+  component: Container,
 };
 
 type Story = StoryObj<typeof meta>;

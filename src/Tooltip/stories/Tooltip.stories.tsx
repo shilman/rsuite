@@ -12,6 +12,7 @@ const meta = createMeta(Tooltip);
 export default {
   ...meta,
   title: 'Components/Tooltip',
+  component: Tooltip,
   parameters: {
     layout: 'centered'
   }

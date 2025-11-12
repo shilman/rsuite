@@ -6,8 +6,9 @@ import '../styles/index.less';
 const meta = createMeta(Avatar);
 
 export default {
+  ...meta,
   title: 'Components/Avatar',
-  ...meta
+  component: Avatar
 };
 
 type Story = StoryObj<typeof meta>;

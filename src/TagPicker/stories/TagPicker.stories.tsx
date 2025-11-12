@@ -8,8 +8,9 @@ const data = mockArrayData();
 const meta = createMeta(TagPicker) as Meta<typeof TagPicker>;
 
 export default {
+  ...meta,
   title: 'Components/TagPicker',
-  ...meta
+  component: TagPicker,
 };
 
 type Story = StoryObj<typeof meta>;

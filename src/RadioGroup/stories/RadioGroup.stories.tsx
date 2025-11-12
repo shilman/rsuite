@@ -8,8 +8,9 @@ import '../styles/index.less';
 const meta = createMeta(RadioGroup);
 
 export default {
+  ...meta,
   title: 'Components/RadioGroup',
-  ...meta
+  component: RadioGroup,
 };
 
 type Story = StoryObj<typeof meta>;

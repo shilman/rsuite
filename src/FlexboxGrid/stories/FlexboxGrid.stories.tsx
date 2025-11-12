@@ -8,8 +8,9 @@ import './styles.less';
 const meta = createMeta(FlexboxGrid);
 
 export default {
+  ...meta,
   title: 'Components/FlexboxGrid',
-  ...meta
+  component: FlexboxGrid,
 };
 
 type Story = StoryObj<typeof meta>;

@@ -6,8 +6,9 @@ import '../styles/index.less';
 const meta = createMeta(RadioTile);
 
 export default {
+  ...meta,
   title: 'Components/RadioTile',
-  ...meta
+  component: RadioTile,
 };
 
 type Story = StoryObj<typeof meta>;

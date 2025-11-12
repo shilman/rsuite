@@ -8,8 +8,9 @@ import '../styles/index.less';
 const meta = createMeta(ButtonToolbar);
 
 export default {
+  ...meta,
   title: 'Components/ButtonToolbar',
-  ...meta
+  component: ButtonToolbar,
 };
 
 type Story = StoryObj<typeof meta>;

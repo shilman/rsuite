@@ -8,8 +8,9 @@ const data = mockArrayData();
 const meta = createMeta(CheckPicker);
 
 export default {
+  ...meta,
   title: 'Components/CheckPicker',
-  ...meta
+  component: CheckPicker,
 };
 
 type Story = StoryObj<typeof meta>;

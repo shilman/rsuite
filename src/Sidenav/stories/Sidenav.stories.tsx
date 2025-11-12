@@ -13,8 +13,9 @@ import GearCircleIcon from '@rsuite/icons/legacy/GearCircle';
 const meta = createMeta(Sidenav);
 
 export default {
+  ...meta,
   title: 'Components/Sidenav',
-  ...meta
+  component: Sidenav,
 };
 
 type Story = StoryObj<typeof meta>;

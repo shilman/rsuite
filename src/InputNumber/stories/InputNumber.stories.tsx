@@ -6,8 +6,9 @@ import '../styles/index.less';
 const meta = createMeta(InputNumber);
 
 export default {
+  ...meta,
   title: 'Components/InputNumber',
-  ...meta
+  component: InputNumber,
 };
 
 type Story = StoryObj<typeof meta>;

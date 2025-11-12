@@ -14,7 +14,8 @@ const meta = createMeta(Steps);
 
 export default {
   ...meta,
-  title: 'Components/Steps'
+  title: 'Components/Steps',
+  component: Steps,
 };
 
 type Story = StoryObj<typeof meta>;

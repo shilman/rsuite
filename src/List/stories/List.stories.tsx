@@ -7,8 +7,9 @@ import '../styles/index.less';
 const meta = createMeta(List);
 
 export default {
+  ...meta,
   title: 'Components/List',
-  ...meta
+  component: List,
 };
 
 type Story = StoryObj<typeof meta>;

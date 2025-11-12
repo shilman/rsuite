@@ -6,8 +6,9 @@ import '../styles/index.less';
 const meta = createMeta(RangeSlider);
 
 export default {
+  ...meta,
   title: 'Components/RangeSlider',
-  ...meta
+  component: RangeSlider,
 };
 
 type Story = StoryObj<typeof meta>;

@@ -7,8 +7,9 @@ import '../styles/index.less';
 const meta = createMeta(Divider);
 
 export default {
+  ...meta,
   title: 'Components/Divider',
-  ...meta
+  component: Divider,
 };
 
 type Story = StoryObj<typeof meta>;

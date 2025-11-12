@@ -27,8 +27,9 @@ const Textarea = React.forwardRef((props: TextareaProps, ref: any) => (
 ));
 
 export default {
+  ...meta,
   title: 'Components/Form',
-  ...meta
+  component: Form,
 };
 
 type Story = StoryObj<typeof meta>;

@@ -36,6 +36,9 @@ const preview: Preview = {
         ...brand,
         appBg: '#fff'
       }
+    },
+    docs: {
+      codePanel: true
     }
   }
 };
